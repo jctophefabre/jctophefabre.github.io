@@ -1,0 +1,139 @@
+
+
+$jcBlue : #26517c;
+$jcOrange : #ff7400;
+$jcGreen : #5dc72c;
+
+
+.bg-primary {
+  background-color: $jcBlue !important;
+}
+
+.text-primary {
+  color: $jcOrange !important;
+}
+
+a, a:hover {
+  color: $jcOrange;
+}
+
+.social-icons .social-icon:hover {
+  background-color: $jcOrange;
+}
+
+h2 {
+  color: $jcOrange;
+}
+
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-bottom: 20px;
+
+  &:before {
+    content: ' ';
+    background: $jcBlue;
+    border: 3px solid $jcBlue;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+  }
+
+  > li {
+    margin: 20px 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  
+    &:before {
+      content: ' ';
+      background: white;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 6px solid $jcBlue;
+      left: 20px;
+      width: 24px;
+      height: 24px;
+      z-index: 400;
+    }
+  
+    .badge-timeline {
+      background-color: $jcBlue;
+      color : #fff;
+      padding : 6px;
+    }
+  }
+}
+
+div.internship {
+  padding-top : 5px;
+
+  .btn,
+  .btn:hover
+  {
+    background-color: #fff;
+    color : $jcGreen;
+    border : 1px solid $jcGreen;
+    font-weight: normal;
+    padding : 2px;
+    padding-left : 5px;
+    padding-right : 5px;
+  }
+
+
+  p {
+    padding-left : 10px;
+    margin-left : 10px;
+    border-left : 1px solid $jcGreen;
+
+    span.title {
+      font-weight: bold;
+    }
+  }
+}
+
+
+.works-card {
+  border : 1px solid $jcBlue;
+}
+
+.works-card .card-title {
+  text-transform: none;
+}
+
+.works-card img {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.works-card a {
+  font-size: 90%;
+}
+
+div.experience-details {
+  padding-left : 10px;
+  margin-left : 10px;
+  border-left : 3px solid $jcBlue;
+}
+
+p.experience-details-text {
+  font-style: italic;
+}
+
+p.experience-details-emojis {
+  font-size : 150%
+}
+
+
+
+.plus-life {
+  font-size: 250%;
+  padding : 5px;
+  border : 1px solid lightgray;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}

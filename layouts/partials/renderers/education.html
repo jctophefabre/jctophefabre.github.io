@@ -1,0 +1,38 @@
+<div class="lead font-italic mt-5 mb-5">
+  <p class="font-italic">{{ .Content }}</p>
+</div>
+
+{{ range .Params.data }}
+<h2 class="mb-4">{{ .title }}</h2>
+{{- if .items -}}
+<div class="container mb-5">
+  <div class="row">
+    <ul class="timeline">
+    {{ range $index,$element := .items }}
+      <li>
+        <h5><span class="badge badge-timeline">{{ $element.date }}</span><br/>
+        {{ $element.name }}</h5>
+        {{- if $element.school -}}{{ $element.school }}{{- end -}} 
+        {{- if and ( $element.school ) ( $element.city ) -}}&nbsp;-&nbsp;{{- end -}}
+        {{- if $element.city -}}{{ $element.city }}{{- end -}}
+        {{- if or ( $element.school ) ( $element.city ) -}}<br/>{{- end -}}
+        {{- if $element.details -}}{{ $element.details }}<br/>{{- end -}}
+        {{- if $element.hours -}}{{ $element.hours }}h{{- end -}}
+        {{- if $element.internship -}}
+        <div class="internship">
+          <button class="btn btn-sm" type="button" data-toggle="collapse" data-target="#collapseInternship{{ $index }}" aria-expanded="false" aria-controls="collapseInternship{{ $index }}">
+            stage
+          </button>
+          <p class="collapse" id="collapseInternship{{ $index }}">
+            <span class="title">{{ .internship.title }}</span><br/>
+            {{ .internship.org }}
+          </p>
+        </div>
+        {{- end -}}
+      </li>
+    {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
+{{ end }}

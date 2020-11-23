@@ -1,0 +1,28 @@
+<h1 class="mb-0">
+  {{ .Params.firstname }}
+</h1>
+<div class="d-flex flex-row align-items-center ml-0 pl-0">
+  <div class="p-0">
+    <h1 class="mb-0">
+      <span class="text-primary">{{ .Params.lastname }}</span>
+    </h1>
+  </div>
+  <div class="subheading p-0 ml-3">
+    {{ .Params.profile1 }}<br/>
+    {{ .Params.profile2 }}<br/>
+  </div>
+</div>
+<div class="subheading mt-2 mb-1">
+  {{ .Params.zone }}<br/>
+</div>
+<div class="lead font-italic text-justify mt-5 mb-5">
+  <p>{{ .Content }}</p>
+</div>
+<div class="mb-2">
+  <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+</div>
+<div class="social-icons mb-5">
+  <a class="social-icon" href="{{ .Params.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+  <a class="social-icon" href="{{ .Params.github }}"><i class="fab fa-github"></i></a>
+  <a class="social-icon" href="{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
+</div>

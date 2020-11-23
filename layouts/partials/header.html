@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    {{ $SASSoptions := (dict "targetPath" "css/jnchrstph.css" "enableSourceMap" true) -}}
+    {{- $CSS := resources.Get "sass/jnchrstph.scss" | toCSS $SASSoptions -}}
+    <link href="{{ $.Site.BaseURL }}/css/resume-style.css" rel="stylesheet" />
+    <link href='{{ $CSS.Permalink }}' rel='stylesheet'>
+  </head>
+  <body id="page-top">
