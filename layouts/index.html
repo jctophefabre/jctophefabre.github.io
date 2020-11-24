@@ -15,6 +15,25 @@
         {{ end }}
         </ul>
     </div>
+    <div class="legal">
+      <button class="btn btn-legal" data-container="body" data-toggle="legal-popover" data-placement="bottom">i</a>
+      <div id='legal-popover-content' style='display:none;'>
+        <p class="text-center">
+          Contenu sous licence<br/>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br/>
+          <br/>
+          Site généré avec <a href="https://gohugo.io/" target="_blank">Hugo</a>
+          </p>
+      <div>
+      <script>
+        $('button[data-toggle=legal-popover]').popover({
+          html : true,
+          content: function() {
+            return $('#legal-popover-content').html();
+          }
+        });
+      </script>
+    </div>
   </nav>
   <!-- Page Content-->
   <div class="container-fluid p-0">
@@ -26,4 +45,5 @@
     </section>
     <hr class="m-0" />
   {{ end }}
+  </div>
 {{ partial "footer.html" . }}
