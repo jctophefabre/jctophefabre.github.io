@@ -1,2 +1,47 @@
 <h2 class="mb-5">{{ .Title }}</h2>
-{{ .Content }}
+<div class="container skills">
+  <div class="row">
+  {{ range .Params.data }}
+    <div class="col skills-icon">
+      {{ if .icon }}<i class="{{ .icon }}"></i>{{ end }}
+    </div>
+  {{ end }}
+  </div>
+  <div class="row align-items-center">
+  {{ range .Params.data }}
+    <div class="col skills-title">
+      {{- .name -}}
+    </div>  
+  {{ end }}
+  </div>
+  <div class="row align-items-top">
+  {{ range .Params.data }}
+    <div class="col skills-text font-italic">
+      <p>{{- .text -}}</p>
+    </div>
+  {{ end }}
+  </div>
+  <div class="row">
+  {{ range .Params.data }}
+    <div class="col skills-tags">
+      {{ with .skills.major }}
+      {{ range . }}
+       <span class="badge badge-major">{{ . }}</span>
+      {{ end }}
+      <br/>
+      {{ end }}
+      {{ with .skills.medium }}
+      {{ range . }}
+       <span class="badge badge-medium">{{ . }}</span>
+      {{ end }}
+      <br/>
+      {{ end }}
+      {{ with .skills.minor }}
+      {{ range . }}
+       <span class="badge badge-minor">{{ . }}</span>
+      {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+  </div>
+</div>

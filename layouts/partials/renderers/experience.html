@@ -1,13 +1,19 @@
 <h2 class="mb-5">{{ .Title }}</h2>
 
+<div class="font-italic mb-5">{{ .Content }}</div>
+
+
 {{ range .Params.data }}
 <span class="h4 mb-2 text-uppercase">{{ .title }}</span><br/>
+<span class="h5 mb-2">{{ .status }}</span><br/>
 {{ .period }}<br/>
 {{ .org }}
-<div class="experience-details mt-2 mb-5">
-  <p class="experience-details-text mb-1">
-    {{ .details | safeHTML }}
-  </p>
-  {{- if .emojis }}<p class="experience-details-emojis mu-1">{{ .emojis }}</p>{{ end }}
+<div class="experience-facts mt-2 mb-5">
+  <ul>
+    {{ range .facts}}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  {{- if .emojis }}<p class="experience-emojis mu-1">{{ .emojis }}</p>{{ end }}
 </div>
 {{ end }}

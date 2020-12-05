@@ -1,5 +1,5 @@
 ---
-weight : 50
+weight : 40
 title : "Portfolio"
 
 data : 
@@ -9,17 +9,20 @@ data :
     img : "works-openfluid.png"
     github : "OpenFLUID/openfluid"
   - title : "ROpenFLUID"
+    details : "ROpenFLUID est un package pour piloter la plateforme OpenFLUID depuis l'environnement R"
     skills : ["R","C","C++","CMake","Binding de langages"]
     github : "OpenFLUID/ropenfluid"
   - title : "Deveal"
-    skills : ["Python3","Jinja","YAML","reveal.js"]
+    details: "Deveal est un outil Python qui facilite la gestion des présentations sous reveal.js"
+    skills : ["Python","Jinja","YAML","reveal.js"]
     github : "jctophefabre/deveal"
   - title : "web officiel OpenFLUID"
     skills : ["Hugo","SASS/SCSS","Javascript","HTML5","Markdown","Python3","Flask"]
     img : "works-openfluid-web.png"
     url : "www.openfluid-project.org"
   - title : "Rejocker"
-    skills : ["Python3","Flask","JSON"]
+    details : "Rejocker permet de déployer simplement un mock d'API REST" 
+    skills : ["Python","Flask","JSON"]
     github : "jctophefabre/rejocker"
   - title : "OpenFLUID-Community"
     details : "Ressources en ligne pour les utilisateurs d'OpenFLUID : docs, formations, process de developpement, ..."
@@ -33,8 +36,9 @@ data :
     url : "https://www.openfluid-project.org/resources/docs/slideshows/ci-2018-06-07/#/3/9"
     url_label : "Voir la présentation"
   - title : "OpenFLUID WaresHub"
+    details: "OpenFLUID WaresHub est un service en ligne d'hébergement de simulateurs pour la plateforme OpenFLUID, doté d'une API et d'un frontend"
     skills : ["PHP","Python","REST","JSON","Serveur Git"] 
-  - title : "FLUIDhub API"
+  - title : "Spécifications de l'API FLUIDhub"
     skills : ["OpenAPI","Swagger","YAML","JSON"] 
     img : "works-fluidhub-api.png"
     url : dev.openfluid-project.org/fluidhub-dev/api/swagger-ui/

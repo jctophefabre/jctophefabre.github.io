@@ -19,11 +19,23 @@
       <button class="btn btn-legal" data-container="body" data-toggle="legal-popover" data-placement="bottom">i</a>
       <div id='legal-popover-content' style='display:none;'>
         <p class="text-center">
-          Contenu sous licence<br/>
-          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br/>
+          Fait maison par<br>
+          Jean-Christophe Fabre<br/>
           <br/>
-          Site généré avec <a href="https://gohugo.io/" target="_blank">Hugo</a>
-          </p>
+          Construit avec<br/>
+          <a href="https://getbootstrap.com/" target="_blank">
+            <img src="{{ $.Site.BaseURL }}/images/bootstrap.svg" height="28px">
+          </a>
+          &nbsp;+&nbsp; 
+          <a href="https://gohugo.io/" target="_blank">
+            <img src="{{ $.Site.BaseURL }}/images/gohugo.svg" height="28px">
+          </a><br/>
+          <br/>
+          Contenu sous licence<br/>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+            <img height="28px" alt="Creative Commons License" style="border-width:0" src="{{ $.Site.BaseURL }}/images/cc-by-sa.svg" />
+          </a>
+        </p>
       <div>
       <script>
         $('button[data-toggle=legal-popover]').popover({

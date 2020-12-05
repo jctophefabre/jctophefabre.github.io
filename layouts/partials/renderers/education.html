@@ -10,8 +10,9 @@
     <ul class="timeline">
     {{ range $index,$element := .items }}
       <li>
-        <h5><span class="badge badge-timeline">{{ $element.date }}</span><br/>
-        {{ $element.name }}</h5>
+        <!--<h5><span class="badge badge-timeline">{{ $element.date }}</span><br/>-->
+        <h6>{{ $element.date }}</h6>
+        <h5>{{ $element.name }}</h5>
         {{- if $element.school -}}{{ $element.school }}{{- end -}} 
         {{- if and ( $element.school ) ( $element.city ) -}}&nbsp;-&nbsp;{{- end -}}
         {{- if $element.city -}}{{ $element.city }}{{- end -}}
