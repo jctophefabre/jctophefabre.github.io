@@ -13,11 +13,11 @@ data :
     skills : ["R","C","C++","CMake","Binding de langages"]
     github : "OpenFLUID/ropenfluid"
   - title : "Deveal"
-    details: "Deveal est un outil Python qui facilite la gestion des présentations sous reveal.js"
+    details: "Deveal facilite la gestion des présentations sous reveal.js"
     skills : ["Python","Jinja","YAML","reveal.js"]
     github : "jctophefabre/deveal"
-  - title : "web officiel OpenFLUID"
-    skills : ["Hugo","SASS/SCSS","Javascript","HTML5","Markdown","Python3","Flask"]
+  - title : "Web officiel OpenFLUID"
+    skills : ["Hugo","SASS/SCSS","Javascript","HTML5","Markdown","Python","Flask"]
     img : "works-openfluid-web.png"
     url : "www.openfluid-project.org"
   - title : "Rejocker"
@@ -32,8 +32,8 @@ data :
     github : "OpenFLUID/openfluid-community-docs"
   - title : "Intégration continue en ingénierie logicielle"
     details : "Présentation de la démarche d'intégration continue pour le développement de la plateforme OpenFLUID"
-    skills : ["Jenkins","GitHub","Travis CI","Docker"]
-    url : "https://www.openfluid-project.org/resources/docs/slideshows/ci-2018-06-07/#/3/9"
+    skills : ["Jenkins","GitHub","Travis CI","AppVeyor","Docker"]
+    url : "www.openfluid-project.org/resources/docs/slideshows/ci-2018-06-07/#/3/9"
     url_label : "Voir la présentation"
   - title : "OpenFLUID WaresHub"
     details: "OpenFLUID WaresHub est un service en ligne d'hébergement de simulateurs pour la plateforme OpenFLUID, doté d'une API et d'un frontend"

@@ -1,4 +1,4 @@
-@import 'fonts.scss';
+@import 'fonts-defs.scss';
 
 $jcBlue : #26517c;
 $jcOrange : #ff7400;
@@ -18,10 +18,10 @@ $jcIntern : $jcGreen;
 // dark version
 
 $jcBlue : #5CCCCC;
-$jcText : #ccc;
+$jcText : #d7d7d7;
 $jcTitle1 : $jcBlue;
 $jcTitle2 : $jcOrange;
-$jcSubtitle : #bbb;
+$jcSubtitle : #d0d0d0;
 $jcBackground : #001920; //#0a192f;
 $jcMenu : $jcBackground;
 $jcIntern : $jcBlue;
@@ -29,6 +29,9 @@ $jcIntern : $jcBlue;
 $jcTextFontFamily : 'Poppins', sans-serif;
 $jcTitleFontFamily : 'Roboto', sans-serif;
 $jcMonoFontFamily : monospace;
+
+
+// ###################################################
 
 
 body {
@@ -141,12 +144,6 @@ ul.timeline {
       height: 24px;
       z-index: 400;
     }
-  
-    .badge-timeline {
-      background-color: $jcBlue;
-      color : #aaa;
-      padding : 6px;
-    }
   }
 }
 
@@ -195,18 +192,40 @@ div.internship {
   font-size: 90%;
 }
 
-div.experience-facts {
-  padding-left : 10px;
-  margin-left : 10px;
-  border-left : 3px solid $jcBlue;
-
-  ul {
-    font-size: 90%;
-  }
+.works-card .link-icon {
+  width: 18px;
+  height: 18px;
+  font-size: 90%;
+  stroke-width: 1.8;
 }
 
-p.experience-emojis {
-  font-size : 150%
+.works-card .skill-tag {
+  font-size: 90%;
+  margin: 5px;
+  padding-left : 5px;
+  padding-right : 5px;
+  background : none !important;
+  border : 1.2px solid darken($jcText,10%);
+  color : darken($jcText,10%);
+  border-radius : 20px;
+  -webkit-border-radius : 20px;
+}
+
+.experience-icon {
+  stroke: $jcBlue;
+  stroke-width: 1.5;
+}
+
+div.experience-facts {
+  padding-left : 5px;
+  margin-left : 10px;
+  border-left : 1px solid $jcBlue;
+  font-size: 90%;
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
 }
 
 .skills {
@@ -217,7 +236,6 @@ p.experience-emojis {
   }
 
   .skills-icon {
-    font-size: 250%;
     text-align: center;
     color: $jcBlue;
   }
@@ -266,8 +284,4 @@ p.experience-emojis {
 .plus-life {
   font-size: 250%;
   padding : 15px;
-/*  border : 1px solid lightgray;
-  border-radius: 15px;*/
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
 }

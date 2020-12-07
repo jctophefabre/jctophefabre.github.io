@@ -1,6 +1,6 @@
 <h2 class="mb-5">{{ .Title }}</h2>
 
-<div class="font-italic mb-5">{{ .Content }}</div>
+<div class="font-italic mb-5 text-justify">{{ .Content }}</div>
 
 
 {{ range .Params.data }}
@@ -8,12 +8,20 @@
 <span class="h5 mb-2">{{ .status }}</span><br/>
 {{ .period }}<br/>
 {{ .org }}
-<div class="experience-facts mt-2 mb-5">
-  <ul>
-    {{ range .facts}}
-    <li>{{ . }}</li>
-    {{ end }}
-  </ul>
-  {{- if .emojis }}<p class="experience-emojis mu-1">{{ .emojis }}</p>{{ end }}
+<div class="mt-2 mb-5">
+{{ range .categories }}
+  <div class="d-flex mb-3">
+    <div>
+      <i data-feather="{{ .icon }}" class="experience-icon"></i>
+    </div>
+    <div class="flex-grow-1 experience-facts">
+      <ul class="ml-2 pl-0 m-0">
+      {{ range .facts }}
+      <li>{{ . }}</li>
+      {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }} 
 </div>
 {{ end }}

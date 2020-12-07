@@ -3,7 +3,7 @@
   <div class="row">
   {{ range .Params.data }}
     <div class="col skills-icon">
-      {{ if .icon }}<i class="{{ .icon }}"></i>{{ end }}
+      {{ if .icon }}<i data-feather="{{ .icon }}" style="width: 64px; height: 64px;"></i>{{ end }}
     </div>
   {{ end }}
   </div>

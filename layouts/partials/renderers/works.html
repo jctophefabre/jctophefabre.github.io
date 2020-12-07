@@ -7,10 +7,9 @@
       <h5 class="card-title">{{ .title }}</h5>
       <p class="card-text">
       {{- if .details -}}{{ .details }}<br/>{{- end -}}
-      {{- if .skills -}}<i>{{ delimit .skills ", " }}</i><br/>{{- end -}}
-      {{- if or .details .skills -}}<br/>{{- end -}}
-      {{- if .github -}}<i class="fab fa-github"></i>&nbsp;<a href="https://github.com/{{ .github }}" class="card-link" target="_blank">{{ .github }}</a><br/>{{- end -}}
-      {{- if .url -}}<i class="fas fa-external-link-alt"></i>&nbsp;<a href="https://{{ .url }}" class="card-link" target="_blank">{{- if .url_label -}}{{ .url_label }}{{- else -}}{{ .url }}{{- end -}}</a><br/>{{- end -}}
+      {{- if .skills -}}<div class="mt-1 mb-2">{{range .skills }}<span class="badge skill-tag">{{ . }}</span>{{ end }}</div>{{- end -}}
+      {{- if .github -}}<i data-feather="github" class="link-icon"></i>&nbsp;<a href="https://github.com/{{ .github }}" class="card-link" target="_blank">{{ .github }}</a><br/>{{- end -}}
+      {{- if .url -}}<i data-feather="external-link" class="link-icon"></i>&nbsp;<a href="https://{{ .url }}" class="card-link" target="_blank">{{- if .url_label -}}{{ .url_label }}{{- else -}}{{ .url }}{{- end -}}</a><br/>{{- end -}}
     </p>
     </div>
   </div>

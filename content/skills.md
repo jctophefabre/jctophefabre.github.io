@@ -4,7 +4,7 @@ title : "Compétences"
 
 data : 
   - name : Management d'équipe et de projet
-    icon: "fas fa-project-diagram"
+    icon: "users"
     text: Très intéressé par les dynamiques collaboratives, porté par des valeurs d'échange et de complémentarité, j'ai à coeur de mener et d'accompagner mes équipes vers le plaisir de réussir ensemble.
     skills:
       major: 
@@ -27,7 +27,7 @@ data :
       minor:
 
   - name : Ingénierie logicielle et environnements
-    icon : "fas fa-tools"
+    icon : "git-pull-request"
     text : Ma connaissance des méthodes et des outils en ingénierie logicielle me permettent de mener des développement d'envergure, de qualité et sur le long terme.
     skills : 
       major:
@@ -56,7 +56,7 @@ data :
         - Windows
 
   - name : Langages et Frameworks
-    icon: "fas fa-code"
+    icon: "code"
     text: De culture C/C++, j'ai développé de nombreuses compétences techniques pour concevoir et réaliser des architectures logicielles complexes mobilisant des technologies adaptées.
     skills:
       major:
