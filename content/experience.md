@@ -23,7 +23,7 @@ data:
         facts:
          - "Renforcement et diversification du partenariat industriel"
          - "Insertion dans de nouveaux réseaux internes et externes"
-         - "Communication, conférences, réseaux sociaux, animation de la communautés des utilisateurs OpenFLUID"
+         - "Communication, conférences et colloques, réseaux sociaux, animation de la communautés des utilisateurs OpenFLUID"
 
 
   - title : "Project leader, Lead developer"
@@ -50,6 +50,7 @@ data:
           - "Enseignement dans des modules de master \"Eau et Ressources\" sur les outils de modélisation hydrologique, (Université de Montpellier)"
       - icon : "share-2"
         facts:
+          - "Organisation de la conférence internationale LANDMOD2010"
           - "Co-animation de plusieurs réseaux métiers (~50 à 150 participants)"
 
   - title : "Développeur"

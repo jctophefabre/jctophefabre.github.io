@@ -16,6 +16,10 @@ data :
     details : "Rejocker permet de déployer simplement un mock d'API REST" 
     skills : ["Python","Flask","JSON"]
     github : "jctophefabre/rejocker"
+  - title : "LANDMOD2010"
+    details : "Organisation de la conférence internationale LANDMOD2010"
+    url : "www.agropolis.fr/pdf/actu/affiche-LandMod-2010.pdf"
+    url_label : "LANDMOD2010"
   - title : "Web officiel OpenFLUID"
     skills : ["Hugo","SASS/SCSS","Javascript","HTML5","Markdown","Python","Flask"]
     img : "works-openfluid-web.png"
