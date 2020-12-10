@@ -46,7 +46,7 @@ data:
           - "Déploiement de services web pour un hébergement ouvert et collaboratif de plugins OpenFLUID"
       - icon : "bookmark"
         facts:
-          - "Mise en place de formations OpenFLUID pour les chercheus et partenaires industriels (format de 3 jours, 100+ personnes formées)"
+          - "Mise en place de formations OpenFLUID pour les chercheurs et partenaires industriels (format de 3 jours, 100+ personnes formées)"
           - "Enseignement dans des modules de master \"Eau et Ressources\" sur les outils de modélisation hydrologique, (Université de Montpellier)"
       - icon : "share-2"
         facts:
