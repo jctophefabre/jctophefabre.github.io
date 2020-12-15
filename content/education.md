@@ -20,7 +20,7 @@ data :
         internship:
           title : "Cartographie des sols par logique floue"
           period : "octobre 1997 - Février 1998"
-          org : "UMR Sol&Environnement, INRA - Montpellier, France"
+          org : "UR Science du Sol, INRA - Montpellier, France"
       - name : "DUT Informatique"
         date : "Juin 1996"
         school : "Université de Montpellier"
@@ -39,10 +39,6 @@ data :
             J'ai choisi d'effectuer ce stage à l'étranger, sur un financement ERASMUS, d'une part pour développer ma pratique quotidienne de la langue anglaise,
             et d'autre part pour m'enrichir d'une expérience forcément différente.<br/>
           emojis : 🛰 ☁️ 🌍 💂‍♀️
-      - name : "Baccalauréat C - Mathématiques et sciences physiques, option informatique"
-        date : "Juin 1994"
-        school : "Lycée Henri IV"
-        city : "Béziers, France"
 
   - title : "Formation professionnelle"
     items:
