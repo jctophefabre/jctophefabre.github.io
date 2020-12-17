@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jean-Christophe Fabre</title>
+    <link>https://jctophefabre.github.io/</link>
+    <description>Recent content on Jean-Christophe Fabre</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="https://jctophefabre.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A propos de moi</title>
+      <link>https://jctophefabre.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jctophefabre.github.io/about/</guid>
+      <description>Supporter de la collaboration au sein des équipes, de la créativité et du &amp;lsquo;beau code&amp;rsquo;, inspiré par les dynamiques open-source et toujours porté par un besoin d&amp;rsquo;innovation, j&amp;rsquo;ai développé tout au long de mon parcours professionnel de multiples compétences et savoir-faire autour de l&amp;rsquo;ingénierie logicielle. Je manage et réalise des projets d&amp;rsquo;envergure, depuis l&amp;rsquo;initiation des développements jusqu&amp;rsquo;à l&amp;rsquo;encadrement d&amp;rsquo;équipes d&amp;rsquo;ingénieurs.
+Avec un côté geek aussi&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Compétences</title>
+      <link>https://jctophefabre.github.io/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jctophefabre.github.io/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expérience</title>
+      <link>https://jctophefabre.github.io/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jctophefabre.github.io/experience/</guid>
+      <description>Développeur de formation, j&amp;rsquo;ai évolué tout au long de ma carrière vers la direction de projet et le management d&amp;rsquo;équipe. Expert en ingénierie logicielle, je conserve une pratique et une expertise métier qui constitue un élément essentiel pour asseoir mon leadership et accompagner l&amp;rsquo;innovation.
+Ainsi, je dirige actuellement la plateforme logicielle de modélisation et simulation spatialisée OpenFLUID, plateforme que j&amp;rsquo;ai initiée, conçue et développée. J&amp;rsquo;ai acquis une experience avancée en ingénierie logicielle ainsi qu&amp;rsquo;en management de projet collaboratif sur l&amp;rsquo;ensemble de ses composantes.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://jctophefabre.github.io/works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jctophefabre.github.io/works/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formation</title>
+      <link>https://jctophefabre.github.io/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jctophefabre.github.io/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#43;</title>
+      <link>https://jctophefabre.github.io/plus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jctophefabre.github.io/plus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
