@@ -1,5 +1,6 @@
+This web sites is built using [Hugo](https://gohugo.io/) and relies on parts of:
 
-
-The layout of this web site is based on the Resume theme for Bootstrap - https://github.com/StartBootstrap/startbootstrap-resume  
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the MIT license.
-
+* [Boostrap](https://getbootstrap.com) (MIT License)
+* [Resume theme for Bootstrap](https://github.com/StartBootstrap/startbootstrap-resume) (MIT License)
+* [Feather icons](https://feathericons.com/) - MIT License
+* [Poppins](https://github.com/itfoundry/poppins) (Open Font License) and [Roboto](https://github.com/googlefonts/roboto) Fonts (Apache 2.0 License) 
