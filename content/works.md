@@ -38,7 +38,7 @@ data :
   - title : "Intégration continue en ingénierie logicielle"
     details : "Présentation de la démarche d'intégration continue pour le développement de la plateforme OpenFLUID"
     skills : ["Jenkins","GitHub","Travis CI","AppVeyor","Docker"]
-    url : "www.openfluid-project.org/resources/docs/slideshows/ci-2018-06-07/#/3/9"
+    url : "www.openfluid-project.org/resources/docs/slideshows/ci-2018-06-07/"
     url_label : "voir la présentation"
   - title : "OpenFLUID WaresHub"
     details: "OpenFLUID WaresHub est un service en ligne d'hébergement de simulateurs pour la plateforme OpenFLUID, doté d'une API et d'un frontend"
