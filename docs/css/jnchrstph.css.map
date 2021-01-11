@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "jnchrstph.css",
-	"sourceRoot": "/Users/jcfabre/SidePro/GitRepositories/jctophefabre-src",
+	"sourceRoot": "/Users/jcfabre/SidePro/GitRepositories/jctophefabre.github.io",
 	"sources": [
 		"assets/sass/jnchrstph.scss",
 		"assets/sass/fonts-defs.scss"
