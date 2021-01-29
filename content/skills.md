@@ -75,6 +75,7 @@ data :
         - REST
         - Swagger/OpenAPI
         - PHP
+        - Flutter/Dart
         - Django
         - HTML
         - CSS/SCSS/SASS
@@ -85,5 +86,4 @@ data :
         - Java
         - Fortran
         - Swift/iOS
-        - Flutter
 ---
