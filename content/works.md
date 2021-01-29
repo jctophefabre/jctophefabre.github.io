@@ -20,6 +20,13 @@ data :
     details : "Organisation de la conférence internationale LANDMOD2010"
     url : "www.agropolis.fr/pdf/actu/affiche-LandMod-2010.pdf"
     url_label : "LANDMOD2010"
+    img: "works-landmod2010.png"
+  - title : "i18n-o-matic"
+    details : "Package pour faciliter l'internationalisation  des applications mobiles"
+    skills : ['Dart','Flutter','YAML']
+    url : "pub.dev/packages/i18n_omatic"
+    url_label : "pub.dev/i18n_omatic"
+    github : "jctophefabre/i18n_omatic"
   - title : "Web officiel OpenFLUID"
     skills : ["Hugo","SASS/SCSS","Javascript","HTML5","Markdown","Python","Flask"]
     img : "works-openfluid-web.png"
