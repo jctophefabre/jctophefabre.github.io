@@ -1,3 +1,7 @@
 baseURL: https://jctophefabre.github.io/
 languageCode: fr-fr
 title: Jean-Christophe Fabre
+
+params:
+  CVfile: JCFabre_CV_2021-04.pdf
+

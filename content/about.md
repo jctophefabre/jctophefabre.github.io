@@ -14,7 +14,7 @@ github : "https://github.com/jctophefabre"
 twitter : "https://twitter.com/jctophefabre"
 ---
 
-Supporter de la collaboration au sein des équipes, de la créativité et du 'beau code', inspiré par les dynamiques open-source 
+Supporter de la collaboration au sein des équipes, de la créativité et du 'clean code', inspiré par les dynamiques open-source 
 et toujours porté par un besoin d'innovation, j'ai développé tout au long de mon parcours professionnel de multiples compétences 
 et savoir-faire autour de l'ingénierie logicielle. Je manage et réalise des projets d'envergure, 
 depuis l'initiation des développements jusqu'à l'encadrement d'équipes d'ingénieurs.  
