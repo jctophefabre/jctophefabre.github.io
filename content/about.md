@@ -12,6 +12,7 @@ web : ""
 linkedin : "https://www.linkedin.com/in/jean-christophe-fabre/"
 github : "https://github.com/jctophefabre"
 twitter : "https://twitter.com/jctophefabre"
+strava : "https://www.strava.com/athletes/49350317"
 ---
 
 Supporter de la collaboration au sein des équipes, de la créativité et du 'clean code', inspiré par les dynamiques open-source 
