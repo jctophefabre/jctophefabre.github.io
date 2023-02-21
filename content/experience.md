@@ -10,11 +10,11 @@ data:
     categories:
       - icon : "users"
         facts:
-          - "Création et responsabilité de l'équipe d'ingénieurs OpenFLUID (3 à 6 personnes selon les financements acquis)"
+          - "Création et responsabilité de l'équipe d'ingénieurs OpenFLUID"
           - "Direction technique des développements et de l'innovation"
           - "Mise en place de la gouvernance et du pilotage institutionnel (Comité d'Orientation Stratégique, Comité Scientifique des Utilisateurs)"
           - "Gestion des ressources humaines et budgétaires"
-          - "Construction, coordination et participation à des projets d'envergure sur appels d'offres pour obtention de financements"
+          - "Construction, coordination et participation à des projets d'envergure sur appels d'offres"
       - icon : "git-pull-request"
         facts:
          - "Renforcement des process d'ingénierie logicielle (workflows d'intégration des contributions, contenairisation, packaging, ...)"

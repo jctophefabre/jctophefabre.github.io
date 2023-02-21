@@ -28,7 +28,7 @@ data :
 
   - name : Ingénierie logicielle et environnements
     icon : "git-pull-request"
-    text : Ma connaissance des méthodes et des outils en ingénierie logicielle me permettent de mener des développement d'envergure, de qualité et sur le long terme.
+    text : Ma connaissance des méthodes et des outils en ingénierie logicielle me permettent de mener des développements d'envergure, de qualité et sur le long terme.
     skills : 
       major:
         - CMake suite
