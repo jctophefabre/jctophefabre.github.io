@@ -10,20 +10,20 @@ data :
       major: 
         - Animation
         - Partage
+        - Process'Com
         - Organisation
         - Communication
-        - Partenariat/Transfert
         - Mentorat
+        - Partenariat/Transfert
         - Agilité/SCRUM
         - Anglais professionnel
-        - Open source
+        - Approches Open source
       medium: 
         - RH
         - Budget
         - Evaluation
         - Reporting
         - Licensing
-        - Slack
       minor:
 
   - name : Ingénierie logicielle et environnements
