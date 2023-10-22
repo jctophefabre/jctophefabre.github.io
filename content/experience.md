@@ -3,9 +3,30 @@ weight : 30
 title : "Expérience"
 
 data:
+  - title : "Responsable d'équipe moteur jeu video AAA"
+    org : "Ubisoft - Montpellier, France"
+    period : "depuis 2023"
+    status: "Team lead"
+    categories:
+      - icon : "users"
+        facts:
+          - "Organisation et animation de l'équipe"
+          - "Définition des objectifs et suivi des réalisations"
+          - "Coordination des travaux avec les équipes partenaires et les experts techniques"
+          - "Accompagnement des carrières, développement des compétences, staffing"
+          - "Communication horizontale et verticale"
+          - "Dynamisation de l'équipe, vie de groupe"
+      - icon : "git-pull-request"
+        facts:
+          - "Mise en place et respect des process"
+          - "Participation à la planification et sécurisation des livrables"
+      - icon : "code"
+        facts:
+         - "Contribution au développement du moteur de jeu"
+
   - title : "Responsable d'équipe, Project leader & Tech. leader"
     org : "UMR LISAH, INRAE - Montpellier, France"
-    period : "depuis 2015"
+    period : "2015-2023"
     status: Ingénieur de recherche
     categories:
       - icon : "users"
@@ -74,8 +95,4 @@ Développeur de formation, j'ai évolué tout au long de ma carrière vers la di
 Expert en ingénierie logicielle, je conserve une pratique et une expertise métier qui constitue un élément essentiel 
 pour asseoir mon leadership et accompagner l'innovation.
 
-Ainsi, je dirige actuellement la [plateforme logicielle de modélisation et simulation spatialisée OpenFLUID](https://www.openfluid-project.org),
-plateforme que j'ai initiée, conçue et développée. 
-J'ai acquis une experience avancée en ingénierie logicielle 
-ainsi qu'en management de projet collaboratif sur l'ensemble de ses composantes.
-
+Ainsi, je dirige actuellement une équipe de développeurs chez [Ubisoft Montpellier](https://www.ubisoft.com) afin de produire un moteur logiciel qui propulsera les jeux AAA de demain.

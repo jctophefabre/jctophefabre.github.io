@@ -13,7 +13,6 @@ data :
         - Process'Com
         - Organisation
         - Communication
-        - Mentorat
         - Partenariat/Transfert
         - Agilité/SCRUM
         - Anglais professionnel
@@ -45,12 +44,14 @@ data :
         - Linux
         - MacOS
       medium:
+        - JIRA
+        - Confluence
         - CI
         - Gogs
         - Docker
         - Singularity
         - Jenkins
-        - svn
+        - Perforce
         - httpd/Apache
         - Admin. Linux
         - Windows
